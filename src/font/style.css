@@ -1,0 +1,71 @@
+@font-face {
+  font-family: 'block-editor-icon';
+  src:  url('fonts/block-editor-icon.eot?vzoik4');
+  src:  url('fonts/block-editor-icon.eot?vzoik4#iefix') format('embedded-opentype'),
+    url('fonts/block-editor-icon.ttf?vzoik4') format('truetype'),
+    url('fonts/block-editor-icon.woff?vzoik4') format('woff'),
+    url('fonts/block-editor-icon.svg?vzoik4#block-editor-icon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="block-editor-icon-"], [class*=" block-editor-icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'block-editor-icon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.block-editor-icon-align-right:before {
+  content: "\e90c";
+}
+.block-editor-icon-align-center:before {
+  content: "\e90d";
+}
+.block-editor-icon-align-left:before {
+  content: "\e90e";
+}
+.block-editor-icon-expand:before {
+  content: "\e90a";
+}
+.block-editor-icon-compress:before {
+  content: "\e90b";
+}
+.block-editor-icon-back-color:before {
+  content: "\e909";
+}
+.block-editor-icon-image:before {
+  content: "\e906";
+}
+.block-editor-icon-link:before {
+  content: "\e907";
+}
+.block-editor-icon-fore-color:before {
+  content: "\e908";
+}
+.block-editor-icon-ordered-list:before {
+  content: "\e902";
+}
+.block-editor-icon-unordered-list:before {
+  content: "\e903";
+}
+.block-editor-icon-strike-through:before {
+  content: "\e904";
+}
+.block-editor-icon-underline:before {
+  content: "\e905";
+}
+.block-editor-icon-italic:before {
+  content: "\e901";
+}
+.block-editor-icon-bold:before {
+  content: "\e900";
+}

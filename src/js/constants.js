@@ -1,0 +1,21 @@
+export default {
+  AVAILABLE_COLORS: [
+    '#FFFFFF', '#000000', '#FF3B42', '#FEA31B', '#F4E41F', '#60CF39', '#12CFBB', '#269BFF', '#9013FE',
+    '#F5F5F5', '#666666', '#FFEBEC', '#FEF5E8', '#FDFCE8', '#EFFAEB', '#E7FAF8', '#E9F5FF', '#F1E5FC',
+    '#E5E5E5', '#333333', '#FF9DA0', '#FED18D', '#F9F18E', '#AFE79C', '#88E7DD', '#92CDFF', '#C789FE',
+    '#CCCCCC', '#282828', '#CC2F34', '#CB8215', '#C3B618', '#4CA52D', '#0EA595', '#1E7CCC', '#730FCB',
+    '#999999', '#1E1E1E', '#992327', '#986110', '#928812', '#397C22', '#0A7C70', '#165D99', '#560B98'],
+  LOADING_IMAGE:
+    'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAYAAAByDd+UAAAAAXNSR0IArs4c6QAABUpJREFUSA2tVkuMVEUUvbeq3uvumYbpbnuGjyKBDFHQEDGSaHRB4gJN/CQmunLHwrgQ+TkQ2czGxOFr3Bnj1gXqUklEE9SNYQFKlETEhJ/D4DA93/6+qrqeekNPHJhBZ8bqvK5X9ereU/fWvecW039oXcdlvXLuKSL3qJDuIaYyOxcT8YgwjSpy51WU/f7WLv7t39TxvRaUjsqTXpLXhdT9LKKJvBLWBoDMzgdAvIkRLCClNEbXlJWPKvujU/PpnRNwxeHJnibHb4nnDUQCAMUsbPAOQPQB0PvMNCBNA7JE4TuT0djcL5zVByo7+fqdwHcB3ndEHvbid3pvi1AbLIBlUCQxeowYrsQ8e4GFsAwIEnqi24DwgHjFSqaUordH9sRn/gk6C7A80HjIGvMOCRnyfhpAQQEJTJOzcN0ZJckfHVFuJCipCZWJ7UaX0DZs4lmsi5l8JNggqRhuIadsY0dlf8ePbdAZwNVHpFwTexC6C8FlqXdwZqSjc5Grfjrclx9qC83Vl47W1ngX7Sb221OL2cBqeMbDUm1equzla0FuBrB4yPV5kvUQULCQeToIPh/da76aC2C+ua5jdgcJ7+MkyaYbNxE2Lz+N7TMvB5ngeyocbW3xzq0jbzGjfXiY7GcLBQu6xveYT5A+xxBoMAen4a0m754oHrYvhu8pIHP0PGtK2JgWOZy4c+dG92VPhgWLaeN7449Jq2/SlGGjRWmNQDwYdKnSgDwgNulJLQvBj/DMuOiLxQDNktHJewD0mMOxIXxINhQPNzcjrO0m5FbLO/wsfKro7NC7PDxLeBGDsd25y7DnFDubSR8VAcu8oBzLOvhbWHkPt3uJovOL0D+nCKL1JDwHA3FyIc28PI2w5TzBOkSwxaTL1afS8J1TwwInY29/hkggikjAREJubaCpTjyeHP5BDfl8fmKBeuddrnhskLn7KpgnZDboSSUG+WYDFREsn26X2i9L7t+srqgPZGl7SAaxjcDCYpxPJoFdamuvq9483pvt8VL6/n5QCE0zDPTgnUDtylTABHlgY8JTfaq1EvMpV4YFS2onYNoFVJESwIBCqwLJen3Vk/FIPwRR6m2UpP+pDaEIrIWuXjyXAX4DgFFcvUi+6Tl2CeumJRM/WDgOAl9ie/WE6EKFcnRlLEvfjWZp67ChTQD8a1f+JhsZQVXxxBkHcKSKe2aJePTtBepE5UQoYu/FItEU2OY1dimXepf9wbsE2eic9yqwzprCodZjiwUt9cvyxqpap++qRvmYomWGokfq5TQQU8CJPv6dYx4kDbYhWAprRbutxQ+amxcKWuiXgjdUROopMSDnKVI8Rf7Xfm4FXagf003r+GvfoFckqsWIJ9wkOhJU+C2F95OC4bFzt/Z3T7bXztX3fiiZSkI91lGWs+QzN3NMCUmru9Z6fLxj4vRtoZkCHMblAVltOXkuJQGnUI9RVFTUxCJsOrkC9huMfK6ysRry9DRdpG0x5Sc7qnHcZSe5M6xjEydgLdFMKHUk5eU0dGknz+T1LMAA2n1IVlpD21yrAeuV50gjkFAkvW6RcigsusVKO04a2D94I5JWoEZloxbSWFwnNhOYud5MlmUyN67v4XrQ227pGbYHoR/u4yGd0JdgiOHg2qCEGLcAaEGi4gaKh3Az8CAKb7FhXNYcrhHIqiAfVmihZm8pc+1OsPD9LgvDZLvhIryGpLnJK9PhWhS0gyMk7TkJJ2TF57PNsCmuj1sd6brY/J+jB3i8rePO/p6A7cWBCHD5WIEwK+rIRiGUwfsJroxNFJ0qHDmRzedGBt/gWltmvv5vdMxplmq3RgsAAAAASUVORK5CYII=',
+  HEADINGS: [
+    { tag: 'p', text: '正文' },
+    { tag: 'h1', text: '标题1' },
+    { tag: 'h2', text: '标题2' },
+    { tag: 'h3', text: '标题3' },
+    { tag: 'h4', text: '标题4' },
+    { tag: 'h5', text: '标题5' },
+    { tag: 'h6', text: '标题6' },
+  ],
+  // 当没有任何输入时默认的html结构
+  DEFAULT_HTML: '<p><br></p>',
+};

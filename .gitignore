@@ -1,0 +1,13 @@
+# NPM
+/node_modules/
+/npm-debug.log
+
+# Global (additional insurance for someone who haven't add this in global gitignore)
+.DS_Store
+/.idea
+
+# Build
+/dist/
+
+# log
+/log/
